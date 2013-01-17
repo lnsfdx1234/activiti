@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+  <name>activiti-controller-web</name>
+  <comment>NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+  <projects>
+    <project>activiti-biz-service</project>
+    <project>activiti-persist-hibernate</project>
+    <project>activiti-entity-hibernate</project>
+    <project>activiti-persist-mybatis</project>
+    <project>activiti-entity-mybatis</project>
+    <project>activiti-utils-extension</project>
+    <project>activiti-biz-security</project>
+    <project>activiti-biz-extension</project>
+    <project>activiti-common-extension</project>
+  </projects>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+  </natures>
+</projectDescription>

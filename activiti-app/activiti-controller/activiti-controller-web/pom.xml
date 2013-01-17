@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.activiti</groupId>
+		<artifactId>activiti-controller</artifactId>
+		<version>1.0</version>
+	</parent>
+	<groupId>org.activiti</groupId>
+	<artifactId>activiti-controller-web</artifactId>
+	<version>1.0</version>
+	<name>activiti-controller-web</name>
+	<url>http://maven.apache.org</url>
+	<dependencies>
+		<!-- SECURITY begin -->
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-spring</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-ehcache</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+		</dependency>
+		<!-- SECURITY end -->
+
+		<!-- WEB begin -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- 应用biz 层jar -->
+		<dependency>
+			<groupId>org.activiti</groupId>
+			<artifactId>activiti-biz-service</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.activiti</groupId>
+			<artifactId>activiti-biz-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.activiti</groupId>
+			<artifactId>activiti-biz-extension</artifactId>
+		</dependency>
+		<!-- 应用common extension层jar -->
+		<dependency>
+			<groupId>org.activiti</groupId>
+			<artifactId>activiti-common-extension</artifactId>
+		</dependency> 
+	</dependencies>
+</project>
