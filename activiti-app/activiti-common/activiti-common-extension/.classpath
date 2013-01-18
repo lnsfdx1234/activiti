@@ -76,6 +76,57 @@
     </attributes>
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/org/springframework/spring-tx/3.1.2.RELEASE/spring-tx-3.1.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-tx/3.1.2.RELEASE/spring-tx-3.1.2.RELEASE-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-jms/3.1.3.RELEASE/spring-jms-3.1.3.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-jms/3.1.3.RELEASE/spring-jms-3.1.3.RELEASE-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0.jar" sourcepath="M2_REPO/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/D:/m2/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.jar" sourcepath="M2_REPO/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/D:/m2/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/apache/activemq/kahadb/5.7.0/kahadb-5.7.0.jar" sourcepath="M2_REPO/org/apache/activemq/kahadb/5.7.0/kahadb-5.7.0-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/D:/m2/org/apache/activemq/kahadb/5.7.0/kahadb-5.7.0-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/fusesource/mqtt-client/mqtt-client/1.3/mqtt-client-1.3.jar" sourcepath="M2_REPO/org/fusesource/mqtt-client/mqtt-client/1.3/mqtt-client-1.3-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/D:/m2/org/fusesource/mqtt-client/mqtt-client/1.3/mqtt-client-1.3-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/fusesource/hawtdispatch/hawtdispatch-transport/1.11/hawtdispatch-transport-1.11.jar" sourcepath="M2_REPO/org/fusesource/hawtdispatch/hawtdispatch-transport/1.11/hawtdispatch-transport-1.11-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/D:/m2/org/fusesource/hawtdispatch/hawtdispatch-transport/1.11/hawtdispatch-transport-1.11-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/fusesource/hawtdispatch/hawtdispatch/1.11/hawtdispatch-1.11.jar" sourcepath="M2_REPO/org/fusesource/hawtdispatch/hawtdispatch/1.11/hawtdispatch-1.11-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/D:/m2/org/fusesource/hawtdispatch/hawtdispatch/1.11/hawtdispatch-1.11-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/fusesource/hawtbuf/hawtbuf/1.9/hawtbuf-1.9.jar" sourcepath="M2_REPO/org/fusesource/hawtbuf/hawtbuf/1.9/hawtbuf-1.9-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/D:/m2/org/fusesource/hawtbuf/hawtbuf/1.9/hawtbuf-1.9-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/geronimo-j2ee-management_1.1_spec-1.0.1.jar" sourcepath="M2_REPO/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/geronimo-j2ee-management_1.1_spec-1.0.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/D:/m2/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/geronimo-j2ee-management_1.1_spec-1.0.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/commons-net/commons-net/3.1/commons-net-3.1.jar" sourcepath="M2_REPO/commons-net/commons-net/3.1/commons-net-3.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/D:/m2/commons-net/commons-net/3.1/commons-net-3.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/jasypt/jasypt/1.9.0/jasypt-1.9.0.jar" sourcepath="M2_REPO/org/jasypt/jasypt/1.9.0/jasypt-1.9.0-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/D:/m2/org/jasypt/jasypt/1.9.0/jasypt-1.9.0-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
   <classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpclient/4.2.2/httpclient-4.2.2.jar" sourcepath="M2_REPO/org/apache/httpcomponents/httpclient/4.2.2/httpclient-4.2.2-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpcore/4.2.2/httpcore-4.2.2.jar" sourcepath="M2_REPO/org/apache/httpcomponents/httpcore/4.2.2/httpcore-4.2.2-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.7/commons-codec-1.7.jar" sourcepath="M2_REPO/commons-codec/commons-codec/1.7/commons-codec-1.7-sources.jar">

@@ -17,8 +17,8 @@
 		<a id="jms-tab" href="${ctx}/story/jms">JMS演示</a>
 		<a id="schedule-tab" href="${ctx}/story/schedule">定时任务演示</a>
 	<%-- 	<a id="security-tab" href="${ctx}/story/security">安全高级演示</a> --%>
-		<a id="utilizes-tab"href="${ctx}/story/utilizes">工具类演示</a>
-		<a id="executablewar-tab"href="${ctx}/story/executablewar">可运行war包演示</a>
+		<a id="utilizes-tab"href="${ctx}/story/utilizes">爬虫</a>
+		<a id="executablewar-tab"href="${ctx}/story/executablewar">抓包</a>
 	</div>
 	<h1>流程演示</h1>
 	<div class="submenu">
